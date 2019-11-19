@@ -1,0 +1,46 @@
+<% include partials/header.ejs %>
+        <header>
+            <h1>Meltdown and Spectre</h1>
+        </header>
+        <% include partials/nav.ejs %>
+        <br />
+        
+        <main>
+            <figure>
+                <img class="center" src="img/spectre.png" alt="Spectre Still Inside photo"/>
+            </figure>
+            <div id=content>
+                <h2>What are meltdown and spectre?</h2>
+                <p>Meltdown and spectre are two architectural cpu flaws that give 
+                any application the ability to read kernel memory. This is a flaw 
+                that affects the main processors, such as Intel, AMD, and ARM. 
+                These kinds of flaws are hardware-level, which makes them notoriously 
+                difficult to fix, unlike software-level flaws.</p>
+                <p>The processor manufacture that was hit the hardest was Intel, as 
+                their manifistation of spectre and meltdown allow remote access 
+                of kernal memory, whereas AMD and ARM were limited to local access.</p>
+                <h3>Meltdown</h3>
+                <p>The meltdown flaw is a nickname for the exploit in which allows 
+                applciations to take advantage of out of order execution and 
+                bypassing security models that are derived from address space 
+                isolation and paravirtualized software continers (such as a 
+                sand-boxed internet browser). This results in applications 
+                having read access to all physicaly mapped memory, includes kernal memory.</p>
+                <h3>Spectre</h3>
+                <p>Whereas the spectre flaw describes a problem with branch prediction and 
+                speculation and is another route for non-adminstrative programs to access 
+                kernal memory.</p>
+                <h2>What has been done about it?</h2>
+                <p>Intel has published software fixes that cover for this hardware 
+                exploit, however it has a large negative performance impact.</p>
+                <br />
+                <div id=source>
+                    Source: <a id=source_link href="https://www.sciencedirect.com/topics/computer-science/ransomware">sciencedirect.com</a>
+                </div>
+            </div>
+        </main>
+        <br />
+        <hr />
+        <% include partials/footer.ejs %>
+    </body>
+</html>

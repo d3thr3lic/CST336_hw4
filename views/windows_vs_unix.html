@@ -1,0 +1,55 @@
+<% include partials/header.ejs %>
+        <header>
+            <h1>Windows vs Unix</h1>
+        </header>
+        <% include partials/nav.ejs %>
+        <br />
+        
+        <main>
+            
+            <figure>
+                <img class="center" src="img/linux_vs_windows.png" alt="linux vs windows"/>
+            </figure>
+            
+            <div id=content>
+                <h2>The basics - What is an operating system?</h2>
+                <p>According to Wikipedia, an <a href="https://en.wikipedia.org/wiki/Operating_system">
+                    operating system</a>  is software that manages hardware, 
+                software, resources, and provides some amount of services for
+                program execution.</p>
+                <p>Both unix style operating systems and Windows both give users
+                the ability to interface with the computer via command line or
+                GUI. The most common set of Unix operating systems belong to one
+                distrubution of Linux.</p>
+                <h2>Differences between Windows and Unix operating systems</h2>
+                <p>Windows was designed around the GUI, and some more advanced
+                tasks can be performed using the command line. Linux can be used
+                the same way, or be run entirely from command line depending entirely
+                on the Linux distrubution chosen.</p>
+                <h2>A Few Advantages of Windows</h2>
+                <ul class="bullet_list">
+                    <li>Easier to learn</li>
+                    <li>Better backward compatibility</li>
+                </ul>
+                <h2>A Few Advantages of Linux</h2>
+                <ul class="bullet_list">
+                    <li>Better stability</li>
+                    <li>Better processing power</li>
+                    <li>Better built-in security</li>
+                </ul>
+                <h2 class="summary">Summary</h2>
+                <p>The operating system that you choose should be based off of
+                your needs. If you need something to just simply use that works
+                well with little effort, then Windows may suit your needs. Unbuntu
+                is a linux distrubution that is known for being very easy to setup
+                and use. If you need something that requires a more custom setup,
+                that needs to be fast, lightweight, and roubust, then a form of
+                Unix may be the right choice for you.</p>
+                <br />
+                <div id=source>Source: <a href="https://www.techrepublic.com/article/massive-intel-cpu-flaw-understanding-the-technical-details-of-meltdown-and-spectre/">techrepublic.com</a></div>
+            </div>
+        </main>
+        <hr />
+        <% include partials/footer.ejs %>
+    </body>
+</html>

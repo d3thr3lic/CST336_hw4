@@ -1,0 +1,24 @@
+{
+  "name": "cst336_hw4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3thr3lic/CST336_hw4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d3thr3lic/CST336_hw4/issues"
+  },
+  "homepage": "https://github.com/d3thr3lic/CST336_hw4#readme",
+  "dependencies": {
+    "ejs": "^2.7.3",
+    "express": "^4.17.1",
+    "faker": "^4.1.0"
+  }
+}

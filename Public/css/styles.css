@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    color:gray;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav a {     /* links with "nav" container */
+     padding:15px;   
+     padding-bottom: 4px;
+     font-size: 1.5em;
+     text-decoration: none;     /* removes underline */
+     color: white;              /* by default, links are blue */
+}
+
+nav a:hover {    /*pseudo class*/
+    border-bottom:2px purple solid;
+    font-size: 1.8em;
+    transition: .9s;    /* transistion effect */
+}
+
+footer {
+    color: purple;
+    font-size: 12px;
+}
+
+.current_page_link {
+                color: purple;
+}
+
+strong {
+    color: orange;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+    color: red;
+}
+
+#content {
+    text-align: center;
+}
+
+h2, h3 {
+    color: white;
+}
+
+.bullet_list {
+    color: rgb(190, 190, 190);
+    border: double;
+}
+
+#source {
+    cursor: crosshair;
+}
+
+main div p {
+    color: rgb(100, 200, 100);
+}
+
+time {
+    font-size: 1.5em;
+    color: gray;
+}
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+main p a {
+    color: white;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+.summary {
+    letter-spacing: 5px;
+}
