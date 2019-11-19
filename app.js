@@ -9,23 +9,23 @@ app.use(express.static("Public"));
 
 //routes
 app.get("/", function(req, res){
-    res.render("index.html", {"fakeName": fakeName});
+    res.render("index.ejs", {"fakeName": fakeName});
 });
 
 app.get("/emojicode", function(req, res){
-    res.render("emojicode.html", {"fakeName": fakeName});
+    res.render("emojicode.ejs", {"fakeName": fakeName});
 });
 
 app.get("/meltdown_spectre", function(req, res){
-    res.render("meltdown_spectre.html", {"fakeName": fakeName});
+    res.render("meltdown_spectre.ejs", {"fakeName": fakeName});
 });
 
 app.get("/ransomware", function(req, res){
-    res.render("ransomware.html", {"fakeName": fakeName});
+    res.render("ransomware.ejs", {"fakeName": fakeName});
 });
 
 app.get("/windows_vs_unix", function(req, res){
-    res.render("windows_vs_unix.html", {"fakeName": fakeName});
+    res.render("windows_vs_unix.ejs", {"fakeName": fakeName});
 });
 
 //server listener
